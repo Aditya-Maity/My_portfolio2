@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTT Streaming Survey</title>
+    <link rel="stylesheet" href="style_survey.css">
+</head>
+
+<body>
+    <div id="container">
+        <h2>OTT Streaming Survey</h2>
+        <form action="survey.html">
+            <section>
+                <div>
+                    <h3>What is your Name ?</h3>
+                    <input type="text" id="name" class="input" placeholder="Enter Your Name">
+                </div>
+                <div>
+                    <h3>What is your Gender ?</h3>
+                    <label for="Male">Male<input type="radio" name="Gender" id="Gender"></label>
+                    <label for="Female">Female<input type="radio" name="Gender" id="Gender"></label>
+                    <label for="Others">Others<input type="radio" name="Gender" id="Gender"></label>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Which OTT platform do you watch ?</h3>
+                    <select name="OTT" class="input" id="Platform">
+                        <option value="">Select..</option>
+                        <option value="Netflix">Netflix</option>
+                        <option value="Disney+">Disney+</option>
+                        <option value="Hoichoi">Hoichoi</option>
+                        <option value="Amazom Prime">Amazom Prime</option>
+                        <option value="Crunchyroll">Crunchyroll</option>
+                    </select>
+                </div>
+                <div>
+                    <h3>How much did you consume the content ?</h3>
+                    <select name="time" class="input" id="duration">
+                        <option value="">Select..</option>
+                        <option value="0-30min">0-30min</option>
+                        <option value="30min-1hr">30min-1hr</option>
+                        <option value="1-5hr">1-5hr</option>
+                        <option value="More than 5hr">More than 5hr</option>
+                    </select>
+                </div>
+                <div>
+                    <h3>What is your Favourite Series ?</h3>
+                    <input type="text" class="input" id="Fav_series" placeholder="Enter your Favourite Series">
+                </div>
+            </section>
+            <input type="submit" value="Submit" class="input">
+        </form>
+    </div>
+
+</body>
+</html>

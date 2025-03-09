@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #f5cac3;
+    text-align: center;
+    height: 100vh;
+    width: 100vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#container{
+    text-align: left;
+    max-width: 500px;
+    padding: 30px;
+    width: 90%;
+    border: 2px solid #f7ede2;
+    border-radius: 30px;
+    background-color: #f7ede2;
+    box-shadow: 2px 4px 5px rgba(40, 54, 22, 0.5);
+}
+
+
+h2{
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #2b2d42;
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #0d1321;
+    font-size: 1em;
+    
+}
+.input{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 95%;
+}
+
+input[type="radio"]{
+    width: 35px;
+}
+
+select{
+    width: 95%;
+}
+
+.input:focus {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 10);
+}
+
+.input:hover{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 10);
+}
+
+
+input[type="submit"]:hover{
+    background-color: #ffddd2;
+    cursor: pointer;
+}
+
